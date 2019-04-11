@@ -7,8 +7,8 @@ Multi-pooling residual model
   b. 利用1x1卷积对通道间的像素点进行交流避免空洞池化带来的局部信息“断代”，过程如图1  
   ![1](https://github.com/tirtile/MPR_model/tree/master/image/1.png)
 ## 2. model_with_dw.py
-  a. 将分解的图像作为残差信息添加
-  b. 借鉴mobilenet的dw思想对网络进行优化，如图2
+  a. 将分解的图像作为残差信息添加  
+  b. 借鉴mobilenet的dw思想对网络进行优化，如图2  
   ![2](https://github.com/tirtile/MPR_model/tree/master/image/2.png)
 ## 总体模型结构
 ![3](https://github.com/tirtile/MPR_model/tree/master/image/3.png)
